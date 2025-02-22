@@ -39,10 +39,7 @@ int Product::getQty() const
     return qty_;
 }
 
-/**
- * default implementation...can be overriden in a future
- * assignment
- */
+
 bool Product::isMatch(std::vector<std::string>& searchTerms) const
 {
     return false;
